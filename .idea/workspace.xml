@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d1cdbb2c-1c4f-4305-88f8-84ababc2b492" name="Default Changelist" comment="Add endpoint for file uploading + Add endpoint for list all files">
+    <list default="true" id="d1cdbb2c-1c4f-4305-88f8-84ababc2b492" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/team1/spring/training/ListAllFilesTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/team1/spring/training/RepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/team1/spring/training/RepositoryTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +19,9 @@
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
             <expand>
@@ -62,13 +65,13 @@
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
     <property name="show.unlinked.gradle.project.popup" value="true" />
   </component>
-  <component name="RunManager" selected="Gradle.RepositoryTest.testFindByName">
-    <configuration name="RepositoryTest.test" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.ListAllFilesTest.testControllerGetRequestForGivenFileAndReturnJsoArrayForAllFiles">
+    <configuration name="ListAllFilesTest.givenEmployees_whenGetEmployees_thenReturnJsonArray" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;team1.spring.training.RepositoryTest.test&quot; --stacktrace" />
+        <option name="scriptParameters" value="--tests &quot;team1.spring.training.ListAllFilesTest.givenEmployees_whenGetEmployees_thenReturnJsonArray&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -83,12 +86,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="RepositoryTest.testCreate" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="ListAllFilesTest.testControllerGetRequestForGivenFileAndReturnJsoArrayForAllFiles" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;team1.spring.training.RepositoryTest.testCreate&quot;" />
+        <option name="scriptParameters" value="--tests &quot;team1.spring.training.ListAllFilesTest.testControllerGetRequestForGivenFileAndReturnJsoArrayForAllFiles&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -103,12 +106,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="RepositoryTest.testDelete" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="ListAllFilesTest.thisIsTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;team1.spring.training.RepositoryTest.testDelete&quot;" />
+        <option name="scriptParameters" value="--tests &quot;team1.spring.training.ListAllFilesTest.thisIsTest&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -181,19 +184,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Gradle.RepositoryTest.test" />
-      <item itemvalue="Gradle.RepositoryTest.testCreate" />
       <item itemvalue="Gradle.RepositoryTest.testFindByName" />
       <item itemvalue="Gradle.RepositoryTest.testUpdate" />
-      <item itemvalue="Gradle.RepositoryTest.testDelete" />
+      <item itemvalue="Gradle.ListAllFilesTest.givenEmployees_whenGetEmployees_thenReturnJsonArray" />
+      <item itemvalue="Gradle.ListAllFilesTest.thisIsTest" />
+      <item itemvalue="Gradle.ListAllFilesTest.testControllerGetRequestForGivenFileAndReturnJsoArrayForAllFiles" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.ListAllFilesTest.testControllerGetRequestForGivenFileAndReturnJsoArrayForAllFiles" />
+        <item itemvalue="Gradle.ListAllFilesTest.thisIsTest" />
+        <item itemvalue="Gradle.ListAllFilesTest.givenEmployees_whenGetEmployees_thenReturnJsonArray" />
         <item itemvalue="Gradle.RepositoryTest.testFindByName" />
         <item itemvalue="Gradle.RepositoryTest.testUpdate" />
-        <item itemvalue="Gradle.RepositoryTest.testCreate" />
-        <item itemvalue="Gradle.RepositoryTest.testDelete" />
-        <item itemvalue="Gradle.RepositoryTest.test" />
       </list>
     </recent_temporary>
   </component>
@@ -222,13 +225,21 @@
       <option name="project" value="LOCAL" />
       <updated>1585050455235</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Create JUnit test class for repository">
+      <created>1585062296567</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1585062296567</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add DB properties + Create entities and repository - Server Side" />
     <MESSAGE value="Add endpoint for file uploading + Add endpoint for list all files" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add endpoint for file uploading + Add endpoint for list all files" />
+    <MESSAGE value="Create JUnit test class for repository" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create JUnit test class for repository" />
   </component>
   <component name="WindowStateProjectService">
     <state x="137" y="17" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584608325966">
@@ -251,50 +262,50 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="329" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.728@0.0.1366.728" timestamp="1585039834226" />
-    <state x="438" y="65" key="#xdebugger.evaluate" timestamp="1585044553701">
+    <state x="425" y="131" key="#xdebugger.evaluate" timestamp="1585078978608">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="438" y="65" key="#xdebugger.evaluate/0.0.1366.728@0.0.1366.728" timestamp="1585044553701" />
-    <state x="273" y="0" key="CommitChangelistDialog2" timestamp="1585062216460">
+    <state x="425" y="131" key="#xdebugger.evaluate/0.0.1366.728@0.0.1366.728" timestamp="1585078978608" />
+    <state x="273" y="0" key="CommitChangelistDialog2" timestamp="1585062291871">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="273" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1585062216460" />
+    <state x="273" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1585062291871" />
     <state x="463" y="117" key="FileChooserDialogImpl" timestamp="1584558294064">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="117" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1584558294064" />
-    <state width="1322" height="110" key="GridCell.Tab.0.bottom" timestamp="1585061983562">
+    <state width="1322" height="197" key="GridCell.Tab.0.bottom" timestamp="1585082726798">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="110" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1585061983562" />
-    <state width="1322" height="110" key="GridCell.Tab.0.center" timestamp="1585061983561">
+    <state width="1322" height="197" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1585082726798" />
+    <state width="1322" height="197" key="GridCell.Tab.0.center" timestamp="1585082726797">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="110" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1585061983561" />
-    <state width="1322" height="110" key="GridCell.Tab.0.left" timestamp="1585061983561">
+    <state width="1322" height="197" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1585082726797" />
+    <state width="1322" height="197" key="GridCell.Tab.0.left" timestamp="1585082726797">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="110" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1585061983561" />
-    <state width="1322" height="110" key="GridCell.Tab.0.right" timestamp="1585061983562">
+    <state width="1322" height="197" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1585082726797" />
+    <state width="1322" height="197" key="GridCell.Tab.0.right" timestamp="1585082726798">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="110" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1585061983562" />
-    <state width="1322" height="56" key="GridCell.Tab.1.bottom" timestamp="1585060073565">
+    <state width="1322" height="197" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1585082726798" />
+    <state width="1322" height="315" key="GridCell.Tab.1.bottom" timestamp="1585079234867">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="56" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1585060073565" />
-    <state width="1322" height="56" key="GridCell.Tab.1.center" timestamp="1585060073565">
+    <state width="1322" height="315" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1585079234867" />
+    <state width="1322" height="315" key="GridCell.Tab.1.center" timestamp="1585079234866">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="56" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1585060073565" />
-    <state width="1322" height="56" key="GridCell.Tab.1.left" timestamp="1585060073564">
+    <state width="1322" height="315" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1585079234866" />
+    <state width="1322" height="315" key="GridCell.Tab.1.left" timestamp="1585079234866">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="56" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1585060073564" />
-    <state width="1322" height="56" key="GridCell.Tab.1.right" timestamp="1585060073565">
+    <state width="1322" height="315" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1585079234866" />
+    <state width="1322" height="315" key="GridCell.Tab.1.right" timestamp="1585079234867">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="56" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1585060073565" />
+    <state width="1322" height="315" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1585079234867" />
     <state x="498" y="296" key="ReplaceDuplicatesPrompt" timestamp="1585058756679">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -303,10 +314,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1584608012405" />
-    <state x="275" y="95" key="Vcs.Push.Dialog.v2" timestamp="1585050482709">
+    <state x="275" y="95" key="Vcs.Push.Dialog.v2" timestamp="1585062300087">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="95" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1585050482709" />
+    <state x="275" y="95" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1585062300087" />
     <state x="92" y="92" width="1182" height="544" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1585061989578">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
