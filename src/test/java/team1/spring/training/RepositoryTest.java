@@ -3,11 +3,10 @@ package team1.spring.training;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
-import junit.framework.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTest;
 import org.springframework.boot.test.autoconfigure.orm.jpa.TestEntityManager;
-import org.springframework.data.repository.CrudRepository;
+import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.test.context.junit4.SpringRunner;
 
 import java.util.List;
@@ -22,7 +21,7 @@ public class RepositoryTest {
     private TestEntityManager entityManager;
 
     @Autowired
-    private CrudRepository<File,Long> repository;
+    private JpaRepository<File,Long> repository;
 
     @Autowired
     private FileRepository fileRepository;

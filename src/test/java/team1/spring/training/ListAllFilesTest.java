@@ -11,10 +11,8 @@ import org.springframework.boot.test.mock.mockito.MockBean;
 import org.springframework.http.MediaType;
 import org.springframework.test.context.junit4.SpringRunner;
 import org.springframework.test.web.servlet.MockMvc;
-
 import java.util.Arrays;
 import java.util.List;
-
 import static org.hamcrest.CoreMatchers.is;
 import static org.hamcrest.Matchers.hasSize;
 import static org.mockito.BDDMockito.given;
@@ -44,7 +42,7 @@ public class ListAllFilesTest {
         File firstFile = new File(fileLoction, new java.util.Date().toString(),"firstFile");
         File secondFile = new File(fileLoction, new java.util.Date().toString(),"secondFile");
         File thirdFile = new File(fileLoction, new java.util.Date().toString(),"thirdFile");
-        
+
         List<File> allFiles = Arrays.asList(firstFile,secondFile,thirdFile);
         given(fileService.getAllFiles()).willReturn(allFiles);
 

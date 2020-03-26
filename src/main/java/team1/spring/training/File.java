@@ -1,16 +1,11 @@
 package team1.spring.training;
 
-import org.hibernate.annotations.GenericGenerator;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
 
 import javax.persistence.*;
 import java.io.Serializable;
-import java.io.Serializable;
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
-import javax.persistence.Table;
 import java.util.Objects;
 
 @Entity
@@ -19,13 +14,10 @@ public class File implements Serializable {
 
     private static final long serialVersionUID = 1L;
 
-    @Id @GeneratedValue(strategy=GenerationType.IDENTITY) @Column(name="id", nullable = false) long id;
+    @Id @GeneratedValue(strategy=GenerationType.IDENTITY) @Column(name="id", nullable = false)  long id;
     //location,timestamp,filename,
-    @Column(name="location")
     private String location;
-    @Column(name="timestamp")
     private String timestamp;
-    @Column(name="name")
     private String name;
 
     public File(){ }
@@ -38,31 +30,19 @@ public class File implements Serializable {
 
     public long getId() { return id; }
 
-    public void setId(Long id) {
-        this.id = id;
-    }
+    public void setId(Long id) { this.id = id; }
 
-    public String getLocation() {
-        return location;
-    }
+    public String getLocation() { return location; }
 
-    public void setLocation(String location) {
-        this.location = location;
-    }
+    public void setLocation(String location) { this.location = location; }
 
     public String getTimestamp() { return timestamp; }
 
-    public void setTimestamp(String timestamp) {
-        this.timestamp = timestamp;
-    }
+    public void setTimestamp(String timestamp) { this.timestamp = timestamp; }
 
-    public String getName() {
-        return name;
-    }
+    public String getName() { return name; }
 
-    public void setName(String name) {
-        this.name = name;
-    }
+    public void setName(String name) { this.name = name; }
 
     @Override
     public boolean equals(Object o) {

@@ -25,4 +25,6 @@ dependencies {
         //Your previous task details (if any)
     }
 
+    compileOnly 'org.projectlombok:lombok:1.18.10'
+
 }

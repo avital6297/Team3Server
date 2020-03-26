@@ -5,6 +5,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.web.multipart.MultipartFile;
 
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
 
 @Service
@@ -40,7 +41,7 @@ public class FileService implements FileServiceInterface {
 
     public File MultipartFileToFile (MultipartFile multipartFile){
 
-        File myFile = new File ("C:\\Uploads", new java.util.Date().toString(), multipartFile.getOriginalFilename());
+        File myFile = new File ("C:\\Uploads", new Date().toString(), multipartFile.getOriginalFilename());
         myFile.setId(myFile.getId());
         return myFile;
     }

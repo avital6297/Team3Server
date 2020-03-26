@@ -1,10 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d1cdbb2c-1c4f-4305-88f8-84ababc2b492" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/team1/spring/training/ListAllFilesTest.java" afterDir="false" />
+    <list default="true" id="d1cdbb2c-1c4f-4305-88f8-84ababc2b492" name="Default Changelist" comment="Add JUnit test for list all files using MockMvc">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/team1/spring/training/File.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/team1/spring/training/File.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/team1/spring/training/FileController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/team1/spring/training/FileController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/team1/spring/training/FileRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/team1/spring/training/FileRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/team1/spring/training/FileService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/team1/spring/training/FileService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/team1/spring/training/FileStorageProperties.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/team1/spring/training/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/team1/spring/training/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/team1/spring/training/Runner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/team1/spring/training/ListAllFilesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/team1/spring/training/ListAllFilesTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/team1/spring/training/RepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/team1/spring/training/RepositoryTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +73,20 @@
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
     <property name="show.unlinked.gradle.project.popup" value="true" />
   </component>
-  <component name="RunManager" selected="Gradle.ListAllFilesTest.testControllerGetRequestForGivenFileAndReturnJsoArrayForAllFiles">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="team1.spring.training.Main" />
+      <module name="Team1Training.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="team1.spring.training.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ListAllFilesTest.givenEmployees_whenGetEmployees_thenReturnJsonArray" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -126,32 +147,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="RepositoryTest.testFindByName" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="RepositoryTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;team1.spring.training.RepositoryTest.testFindByName&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":cleanTest" />
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" value="" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="RepositoryTest.testUpdate" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;team1.spring.training.RepositoryTest.testUpdate&quot;" />
+        <option name="scriptParameters" value="--tests &quot;team1.spring.training.RepositoryTest&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -184,19 +185,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Gradle.RepositoryTest.testFindByName" />
-      <item itemvalue="Gradle.RepositoryTest.testUpdate" />
       <item itemvalue="Gradle.ListAllFilesTest.givenEmployees_whenGetEmployees_thenReturnJsonArray" />
       <item itemvalue="Gradle.ListAllFilesTest.thisIsTest" />
       <item itemvalue="Gradle.ListAllFilesTest.testControllerGetRequestForGivenFileAndReturnJsoArrayForAllFiles" />
+      <item itemvalue="Gradle.RepositoryTest" />
+      <item itemvalue="Application.Main" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Gradle.RepositoryTest" />
         <item itemvalue="Gradle.ListAllFilesTest.testControllerGetRequestForGivenFileAndReturnJsoArrayForAllFiles" />
         <item itemvalue="Gradle.ListAllFilesTest.thisIsTest" />
         <item itemvalue="Gradle.ListAllFilesTest.givenEmployees_whenGetEmployees_thenReturnJsonArray" />
-        <item itemvalue="Gradle.RepositoryTest.testFindByName" />
-        <item itemvalue="Gradle.RepositoryTest.testUpdate" />
       </list>
     </recent_temporary>
   </component>
@@ -232,14 +233,22 @@
       <option name="project" value="LOCAL" />
       <updated>1585062296567</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Add JUnit test for list all files using MockMvc">
+      <created>1585082891506</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1585082891506</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add DB properties + Create entities and repository - Server Side" />
     <MESSAGE value="Add endpoint for file uploading + Add endpoint for list all files" />
     <MESSAGE value="Create JUnit test class for repository" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create JUnit test class for repository" />
+    <MESSAGE value="Add JUnit test for list all files using MockMvc" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add JUnit test for list all files using MockMvc" />
   </component>
   <component name="WindowStateProjectService">
     <state x="137" y="17" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584608325966">
@@ -266,30 +275,30 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="425" y="131" key="#xdebugger.evaluate/0.0.1366.728@0.0.1366.728" timestamp="1585078978608" />
-    <state x="273" y="0" key="CommitChangelistDialog2" timestamp="1585062291871">
+    <state x="273" y="0" key="CommitChangelistDialog2" timestamp="1585235284960">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="273" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1585062291871" />
+    <state x="273" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1585235284960" />
     <state x="463" y="117" key="FileChooserDialogImpl" timestamp="1584558294064">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="117" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1584558294064" />
-    <state width="1322" height="197" key="GridCell.Tab.0.bottom" timestamp="1585082726798">
+    <state width="1322" height="26" key="GridCell.Tab.0.bottom" timestamp="1585236736967">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="197" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1585082726798" />
-    <state width="1322" height="197" key="GridCell.Tab.0.center" timestamp="1585082726797">
+    <state width="1322" height="26" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1585236736967" />
+    <state width="1322" height="26" key="GridCell.Tab.0.center" timestamp="1585236736967">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="197" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1585082726797" />
-    <state width="1322" height="197" key="GridCell.Tab.0.left" timestamp="1585082726797">
+    <state width="1322" height="26" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1585236736967" />
+    <state width="1322" height="26" key="GridCell.Tab.0.left" timestamp="1585236736966">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="197" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1585082726797" />
-    <state width="1322" height="197" key="GridCell.Tab.0.right" timestamp="1585082726798">
+    <state width="1322" height="26" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1585236736966" />
+    <state width="1322" height="26" key="GridCell.Tab.0.right" timestamp="1585236736967">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="197" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1585082726798" />
+    <state width="1322" height="26" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1585236736967" />
     <state width="1322" height="315" key="GridCell.Tab.1.bottom" timestamp="1585079234867">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -314,10 +323,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1584608012405" />
-    <state x="275" y="95" key="Vcs.Push.Dialog.v2" timestamp="1585062300087">
+    <state x="275" y="95" key="Vcs.Push.Dialog.v2" timestamp="1585082895387">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="95" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1585062300087" />
+    <state x="275" y="95" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1585082895387" />
     <state x="92" y="92" width="1182" height="544" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1585061989578">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -348,17 +357,17 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/team1/spring/training/FileService.java</url>
-          <line>30</line>
+          <line>31</line>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/team1/spring/training/Main.java</url>
-          <line>9</line>
+          <line>7</line>
           <option name="timeStamp" value="13" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/team1/spring/training/FileService.java</url>
-          <line>35</line>
+          <line>36</line>
           <option name="timeStamp" value="16" />
         </line-breakpoint>
       </breakpoints>
