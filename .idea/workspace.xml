@@ -2,17 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d1cdbb2c-1c4f-4305-88f8-84ababc2b492" name="Default Changelist" comment="Add JUnit test for list all files using MockMvc">
+      <change afterPath="$PROJECT_DIR$/src/main/java/team1/spring/training/MyWebConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/team1/spring/training/UploadControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/team1/spring/training/File.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/team1/spring/training/File.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/team1/spring/training/FileController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/team1/spring/training/FileController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/team1/spring/training/FileRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/team1/spring/training/FileRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/team1/spring/training/FileService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/team1/spring/training/FileService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/team1/spring/training/FileStorageProperties.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/team1/spring/training/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/team1/spring/training/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/team1/spring/training/Runner.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/team1/spring/training/ListAllFilesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/team1/spring/training/ListAllFilesTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/team1/spring/training/RepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/team1/spring/training/RepositoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,6 +51,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1ZJ4OnDDnmQRhHpKPaWENI3bGYc" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -73,26 +69,13 @@
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
     <property name="show.unlinked.gradle.project.popup" value="true" />
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="team1.spring.training.Main" />
-      <module name="Team1Training.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="team1.spring.training.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ListAllFilesTest.givenEmployees_whenGetEmployees_thenReturnJsonArray" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.UploadControllerTest.test">
+    <configuration name="Example" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;team1.spring.training.ListAllFilesTest.givenEmployees_whenGetEmployees_thenReturnJsonArray&quot;" />
+        <option name="scriptParameters" value="--tests &quot;team1.spring.training.Example&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -107,12 +90,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="ListAllFilesTest.testControllerGetRequestForGivenFileAndReturnJsoArrayForAllFiles" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="FileUploadingEndpointTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;team1.spring.training.ListAllFilesTest.testControllerGetRequestForGivenFileAndReturnJsoArrayForAllFiles&quot;" />
+        <option name="scriptParameters" value="--tests &quot;team1.spring.training.FileUploadingEndpointTest&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -127,12 +110,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="ListAllFilesTest.thisIsTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="FileUploadingEndpointTest.test" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;team1.spring.training.ListAllFilesTest.thisIsTest&quot;" />
+        <option name="scriptParameters" value="--tests &quot;team1.spring.training.FileUploadingEndpointTest.test&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -147,12 +130,32 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="RepositoryTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="UploadControllerTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;team1.spring.training.RepositoryTest&quot;" />
+        <option name="scriptParameters" value="--tests &quot;team1.spring.training.UploadControllerTest&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" value="" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="UploadControllerTest.test" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;team1.spring.training.UploadControllerTest.test&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -185,19 +188,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Gradle.ListAllFilesTest.givenEmployees_whenGetEmployees_thenReturnJsonArray" />
-      <item itemvalue="Gradle.ListAllFilesTest.thisIsTest" />
-      <item itemvalue="Gradle.ListAllFilesTest.testControllerGetRequestForGivenFileAndReturnJsoArrayForAllFiles" />
-      <item itemvalue="Gradle.RepositoryTest" />
-      <item itemvalue="Application.Main" />
+      <item itemvalue="Gradle.FileUploadingEndpointTest" />
+      <item itemvalue="Gradle.FileUploadingEndpointTest.test" />
+      <item itemvalue="Gradle.UploadControllerTest" />
+      <item itemvalue="Gradle.Example" />
+      <item itemvalue="Gradle.UploadControllerTest.test" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Gradle.RepositoryTest" />
-        <item itemvalue="Gradle.ListAllFilesTest.testControllerGetRequestForGivenFileAndReturnJsoArrayForAllFiles" />
-        <item itemvalue="Gradle.ListAllFilesTest.thisIsTest" />
-        <item itemvalue="Gradle.ListAllFilesTest.givenEmployees_whenGetEmployees_thenReturnJsonArray" />
+        <item itemvalue="Gradle.UploadControllerTest.test" />
+        <item itemvalue="Gradle.UploadControllerTest" />
+        <item itemvalue="Gradle.Example" />
+        <item itemvalue="Gradle.FileUploadingEndpointTest.test" />
+        <item itemvalue="Gradle.FileUploadingEndpointTest" />
       </list>
     </recent_temporary>
   </component>
@@ -275,46 +278,46 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="425" y="131" key="#xdebugger.evaluate/0.0.1366.728@0.0.1366.728" timestamp="1585078978608" />
-    <state x="273" y="0" key="CommitChangelistDialog2" timestamp="1585235284960">
+    <state x="273" y="0" key="CommitChangelistDialog2" timestamp="1586460427080">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="273" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1585235284960" />
+    <state x="273" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1586460427080" />
     <state x="463" y="117" key="FileChooserDialogImpl" timestamp="1584558294064">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="117" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1584558294064" />
-    <state width="1322" height="26" key="GridCell.Tab.0.bottom" timestamp="1585236736967">
+    <state width="1322" height="105" key="GridCell.Tab.0.bottom" timestamp="1586458437315">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="26" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1585236736967" />
-    <state width="1322" height="26" key="GridCell.Tab.0.center" timestamp="1585236736967">
+    <state width="1322" height="105" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1586458437315" />
+    <state width="1322" height="105" key="GridCell.Tab.0.center" timestamp="1586458437314">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="26" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1585236736967" />
-    <state width="1322" height="26" key="GridCell.Tab.0.left" timestamp="1585236736966">
+    <state width="1322" height="105" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1586458437314" />
+    <state width="1322" height="105" key="GridCell.Tab.0.left" timestamp="1586458437314">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="26" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1585236736966" />
-    <state width="1322" height="26" key="GridCell.Tab.0.right" timestamp="1585236736967">
+    <state width="1322" height="105" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1586458437314" />
+    <state width="1322" height="105" key="GridCell.Tab.0.right" timestamp="1586458437314">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="26" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1585236736967" />
-    <state width="1322" height="315" key="GridCell.Tab.1.bottom" timestamp="1585079234867">
+    <state width="1322" height="105" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1586458437314" />
+    <state width="1322" height="302" key="GridCell.Tab.1.bottom" timestamp="1586275250858">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="315" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1585079234867" />
-    <state width="1322" height="315" key="GridCell.Tab.1.center" timestamp="1585079234866">
+    <state width="1322" height="302" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1586275250858" />
+    <state width="1322" height="302" key="GridCell.Tab.1.center" timestamp="1586275250842">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="315" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1585079234866" />
-    <state width="1322" height="315" key="GridCell.Tab.1.left" timestamp="1585079234866">
+    <state width="1322" height="302" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1586275250842" />
+    <state width="1322" height="302" key="GridCell.Tab.1.left" timestamp="1586275250842">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="315" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1585079234866" />
-    <state width="1322" height="315" key="GridCell.Tab.1.right" timestamp="1585079234867">
+    <state width="1322" height="302" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1586275250842" />
+    <state width="1322" height="302" key="GridCell.Tab.1.right" timestamp="1586275250842">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="315" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1585079234867" />
+    <state width="1322" height="302" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1586275250842" />
     <state x="498" y="296" key="ReplaceDuplicatesPrompt" timestamp="1585058756679">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -323,18 +326,18 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1584608012405" />
-    <state x="275" y="95" key="Vcs.Push.Dialog.v2" timestamp="1585082895387">
+    <state x="275" y="95" key="Vcs.Push.Dialog.v2" timestamp="1586461074372">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="95" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1585082895387" />
-    <state x="92" y="92" width="1182" height="544" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1585061989578">
+    <state x="275" y="95" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1586461074372" />
+    <state x="92" y="92" width="1182" height="544" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1585922692283">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="92" y="92" width="1182" height="544" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1366.728@0.0.1366.728" timestamp="1585061989578" />
-    <state x="378" y="186" key="com.intellij.ide.util.TipDialog" timestamp="1584989728237">
+    <state x="92" y="92" width="1182" height="544" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1366.728@0.0.1366.728" timestamp="1585922692283" />
+    <state x="378" y="186" key="com.intellij.ide.util.TipDialog" timestamp="1585909440421">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="378" y="186" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1584989728237" />
+    <state x="378" y="186" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1585909440421" />
     <state x="481" y="52" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1584644154353">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -369,6 +372,16 @@
           <url>file://$PROJECT_DIR$/src/main/java/team1/spring/training/FileService.java</url>
           <line>36</line>
           <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/team1/spring/training/UploadControllerTest.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/team1/spring/training/UploadControllerTest.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="22" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
