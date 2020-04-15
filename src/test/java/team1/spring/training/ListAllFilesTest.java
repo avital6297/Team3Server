@@ -46,7 +46,7 @@ public class ListAllFilesTest {
         List<File> allFiles = Arrays.asList(firstFile,secondFile,thirdFile);
         given(fileService.getAllFiles()).willReturn(allFiles);
 
-        mvc.perform(get("/user/files")
+        mvc.perform(get("/user/file")
                 .contentType(MediaType.APPLICATION_JSON))
                 .andExpect(status().isOk())
                 .andExpect(jsonPath("$", hasSize(3)))

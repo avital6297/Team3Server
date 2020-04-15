@@ -9,7 +9,8 @@ import org.springframework.web.multipart.MultipartFile;
 
 import java.util.List;
 
-@Controller
+@CrossOrigin(origins = "http://localhost:4200")
+@RestController
 @RequestMapping("user")
 public class FileController {
 
@@ -21,7 +22,7 @@ public class FileController {
         File file = fileService.getFileById(id);
         return new ResponseEntity<File>(file, HttpStatus.OK);
     }
-    @GetMapping("files")
+    @GetMapping("file")
     public ResponseEntity<List<File>> getAllFiles() {
         List<File> list = fileService.getAllFiles();
         return new ResponseEntity<List<File>>(list, HttpStatus.OK);
