@@ -1,11 +1,13 @@
-package team1.spring.training;
+package team1.spring.training.controller;
+
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
-import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
+import team1.spring.training.file.File;
+import team1.spring.training.service.FileServiceInterface;
 
 import java.util.List;
 

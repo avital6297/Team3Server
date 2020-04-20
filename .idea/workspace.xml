@@ -1,12 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d1cdbb2c-1c4f-4305-88f8-84ababc2b492" name="Default Changelist" comment="">
+    <list default="true" id="d1cdbb2c-1c4f-4305-88f8-84ababc2b492" name="Default Changelist" comment="After first code review, lombok annotations were added(getters, setters, constructors) and splitting classes into packages">
+      <change afterPath="$PROJECT_DIR$/src/main/java/team1/spring/training/file/File.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/team1/spring/training/FileController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/team1/spring/training/FileController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/team1/spring/training/File.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/team1/spring/training/FileController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/team1/spring/training/controller/FileController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/team1/spring/training/FileRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/team1/spring/training/file/FileRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/team1/spring/training/FileService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/team1/spring/training/service/FileService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/team1/spring/training/FileServiceInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/team1/spring/training/service/FileServiceInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/team1/spring/training/MyWebConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/team1/spring/training/controller/MyWebConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/team1/spring/training/ListAllFilesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/team1/spring/training/ListAllFilesTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/team1/spring/training/RepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/team1/spring/training/RepositoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/team1/spring/training/UploadControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/team1/spring/training/UploadControllerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +73,7 @@
     <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
     <property name="show.unlinked.gradle.project.popup" value="true" />
   </component>
   <component name="RunManager" selected="Application.Main">
@@ -74,7 +82,7 @@
       <module name="Team1Training.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="team1.spring.training.*" />
+          <option name="PATTERN" value="team1.spring.training.controller.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -180,10 +188,10 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Application.Main" />
       <item itemvalue="Gradle.UploadControllerTest" />
       <item itemvalue="Gradle.Example" />
       <item itemvalue="Gradle.UploadControllerTest.test" />
-      <item itemvalue="Application.Main" />
       <item itemvalue="Gradle.ListAllFilesTest" />
     </list>
     <recent_temporary>
@@ -242,7 +250,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586461274750</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="connect server side to client">
+      <created>1586965092687</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1586965092687</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -250,7 +265,9 @@
     <MESSAGE value="Add endpoint for file uploading + Add endpoint for list all files" />
     <MESSAGE value="Create JUnit test class for repository" />
     <MESSAGE value="Add JUnit test for list all files using MockMvc" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add JUnit test for list all files using MockMvc" />
+    <MESSAGE value="connect server side to client" />
+    <MESSAGE value="After first code review, lombok annotations were added(getters, setters, constructors) and splitting classes into packages" />
+    <option name="LAST_COMMIT_MESSAGE" value="After first code review, lombok annotations were added(getters, setters, constructors) and splitting classes into packages" />
   </component>
   <component name="WindowStateProjectService">
     <state x="137" y="17" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584608325966">
@@ -277,30 +294,30 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="425" y="131" key="#xdebugger.evaluate/0.0.1366.728@0.0.1366.728" timestamp="1585078978608" />
-    <state x="273" y="0" key="CommitChangelistDialog2" timestamp="1586461270712">
+    <state x="195" y="0" key="CommitChangelistDialog2" timestamp="1587409498206">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="273" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1586461270712" />
+    <state x="195" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1587409498206" />
     <state x="463" y="117" key="FileChooserDialogImpl" timestamp="1584558294064">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="117" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1584558294064" />
-    <state width="1322" height="166" key="GridCell.Tab.0.bottom" timestamp="1586963020953">
+    <state width="1322" height="140" key="GridCell.Tab.0.bottom" timestamp="1587409498849">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="166" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1586963020953" />
-    <state width="1322" height="166" key="GridCell.Tab.0.center" timestamp="1586963020952">
+    <state width="1322" height="140" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1587409498849" />
+    <state width="1322" height="140" key="GridCell.Tab.0.center" timestamp="1587409498848">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="166" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1586963020952" />
-    <state width="1322" height="166" key="GridCell.Tab.0.left" timestamp="1586963020952">
+    <state width="1322" height="140" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1587409498848" />
+    <state width="1322" height="140" key="GridCell.Tab.0.left" timestamp="1587409498847">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="166" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1586963020952" />
-    <state width="1322" height="166" key="GridCell.Tab.0.right" timestamp="1586963020952">
+    <state width="1322" height="140" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1587409498847" />
+    <state width="1322" height="140" key="GridCell.Tab.0.right" timestamp="1587409498848">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="166" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1586963020952" />
+    <state width="1322" height="140" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1587409498848" />
     <state width="1322" height="2" key="GridCell.Tab.1.bottom" timestamp="1586961715782">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -321,22 +338,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="498" y="296" key="ReplaceDuplicatesPrompt/0.0.1366.728@0.0.1366.728" timestamp="1585058756679" />
-    <state x="155" y="0" key="SettingsEditor" timestamp="1586946618143">
+    <state x="155" y="0" key="SettingsEditor" timestamp="1587402476056">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="155" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1586946618143" />
-    <state x="275" y="95" key="Vcs.Push.Dialog.v2" timestamp="1586461074372">
+    <state x="155" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1587402476056" />
+    <state x="275" y="95" key="Vcs.Push.Dialog.v2" timestamp="1586965269249">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="95" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1586461074372" />
+    <state x="275" y="95" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1586965269249" />
     <state x="92" y="92" width="1182" height="544" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1586960396078">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="92" y="92" width="1182" height="544" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1366.728@0.0.1366.728" timestamp="1586960396078" />
-    <state x="378" y="186" key="com.intellij.ide.util.TipDialog" timestamp="1586946327832">
+    <state x="378" y="186" key="com.intellij.ide.util.TipDialog" timestamp="1587404975258">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="378" y="186" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1586946327832" />
+    <state x="378" y="186" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1587404975258" />
     <state x="481" y="52" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1584644154353">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -358,7 +375,7 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/team1/spring/training/FileService.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/team1/spring/training/service/FileService.java</url>
           <line>31</line>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
@@ -368,28 +385,28 @@
           <option name="timeStamp" value="13" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/team1/spring/training/FileService.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/team1/spring/training/service/FileService.java</url>
           <line>36</line>
           <option name="timeStamp" value="16" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/team1/spring/training/UploadControllerTest.java</url>
-          <line>33</line>
+          <line>31</line>
           <option name="timeStamp" value="21" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/team1/spring/training/UploadControllerTest.java</url>
-          <line>32</line>
+          <line>30</line>
           <option name="timeStamp" value="22" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/team1/spring/training/FileController.java</url>
-          <line>29</line>
+          <url>file://$PROJECT_DIR$/src/main/java/team1/spring/training/controller/FileController.java</url>
+          <line>30</line>
           <option name="timeStamp" value="23" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/team1/spring/training/FileController.java</url>
-          <line>14</line>
+          <url>file://$PROJECT_DIR$/src/main/java/team1/spring/training/controller/FileController.java</url>
+          <line>15</line>
           <option name="timeStamp" value="25" />
         </line-breakpoint>
       </breakpoints>

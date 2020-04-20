@@ -1,4 +1,4 @@
-package team1.spring.training;
+package team1.spring.training.controller;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
@@ -19,10 +19,6 @@ public class MyWebConfig extends WebMvcConfigurationSupport {
         return multipartResolver;
     }
 
-//    @Bean
-//    public FileController uploadController() {
-//        return new FileController();
-//    }
 }
 
 

@@ -1,6 +1,7 @@
-package team1.spring.training;
+package team1.spring.training.service;
 
 import org.springframework.web.multipart.MultipartFile;
+import team1.spring.training.file.File;
 
 import java.util.List;
 
